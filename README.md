@@ -61,26 +61,6 @@ Crowdfunding-ETL/
 |-- README.md
 ```
 
-## How to Run
-1. **Clone the Repository**:
-   ```bash
-   git clone https://github.com/kcalomento/Crowdfunding-ETL.git
-   ```
-2. **Set Up the Environment**:
-   - Ensure Python and PostgreSQL are installed.
-   - Install required Python packages:
-     ```bash
-     pip install pandas psycopg2
-     ```
-3. **Run the Notebook**:
-   - Open `ETL_Mini_Project_KFormento_SGold.ipynb` in Jupyter Notebook.
-   - Execute all cells to generate the CSV files and create the database schema.
-4. **Load the Database**:
-   - Use `crowdfunding_db_schema.sql` to create the database.
-   - Import the CSV files into their respective tables.
-5. **Verify the Data**:
-   - Use SQL `SELECT` statements to ensure the tables are populated correctly.
-
 ## Challenges and Solutions
 - **Challenge**: Maintaining data integrity during the foreign key relationship setup.
   - **Solution**: Ensured that referenced keys existed before establishing relationships.
@@ -88,9 +68,9 @@ Crowdfunding-ETL/
   - **Solution**: Utilized Pandas for efficient data cleaning and transformation.
 
 ## Technologies Used
-- **Programming Language**: Python (Pandas, psycopg2)
+- **Programming Language**: Python (Pandas)
 - **Database**: PostgreSQL
-- **Tools**: Jupyter Notebook, GitHub
+- **Tools**: Jupyter Notebook / VS Code
 
 ## Contributors
 - **K. Formento**
